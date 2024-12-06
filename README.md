@@ -2,7 +2,7 @@
 
 ## Video demo
 
-![ok](https://github.com/BabbyBoo/Running-man/issues/1#issue-2722016662)
+![ok](https://github.com/user-attachments/assets/0d1fd9a2-fd32-4157-8538-411adf723757)
 
 ## running
 
