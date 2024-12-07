@@ -48,7 +48,7 @@ public class PlayerVehicle {
         for (int i = 0; i < comVehicle.size(); i++) {
             if (x < comVehicle.get(i).getX() + comVehicle.get(i).getWidth() &&
                     x + width > comVehicle.get(i).getX() &&
-                    y - 50 < comVehicle.get(i).getY() + comVehicle.get(i).getHeight() &&
+                    y - 80 < comVehicle.get(i).getY() + comVehicle.get(i).getHeight() &&
                     y > comVehicle.get(i).getY()) {
                 return true;
             }

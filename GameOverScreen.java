@@ -9,7 +9,7 @@ public class GameOverScreen extends JPanel implements ActionListener {
     private JButton retryButton;
     private JFrame frame;
     private Image backgroundImage; // Background image
-    private static String[] imgPath = { "./images/End.png", "./images/End.png" };
+    private static String[] imgPath = { "./images/End.png", "./images/End2.png" };
     private GameMenu GMenu;
     Toolkit toolkit = Toolkit.getDefaultToolkit();
     Dimension screenSize = toolkit.getScreenSize();

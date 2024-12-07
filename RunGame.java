@@ -18,7 +18,7 @@ public class RunGame extends JPanel {
 
     private int numVehicle;
     private int CId;
-    private double Coe = 2;
+    private double Coe = 3;
     public double SpCoe = 1;
     private static String[][] imgPath = {
             { "./images/mb1.png", "./images/mb2.png", "./images/mb3.png" }, // xe máy

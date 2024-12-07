@@ -102,12 +102,12 @@ public class GameMenu extends JPanel implements ActionListener {
 
     private void showGuideDialog() {
         JDialog guideDialog = new JDialog(frame, "Hướng dẫn", true);
-        guideDialog.setSize(400, 700);
+        guideDialog.setSize(400, 650);
         guideDialog.setLocationRelativeTo(frame);
         guideDialog.setLayout(new BorderLayout());
 
         // Thêm ảnh vào dialog
-        ImageIcon guideImage = new ImageIcon("images/guide.png");
+        ImageIcon guideImage = new ImageIcon("images/img_guide.png");
         JLabel guideLabel = new JLabel(
                 new ImageIcon(guideImage.getImage().getScaledInstance(400, 600, Image.SCALE_SMOOTH)));
         guideDialog.add(guideLabel, BorderLayout.CENTER);
